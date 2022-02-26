@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your 9-5 work day</p>
+    <p id="currentDay" class="lead"></p>
+  </header>
+  <div class="container">
+    <!-- Timeblocks -->
+    <div class="row" id ="hour-9">
+      <div class="hour">9 AM</div>
+      <textarea id = "9" class="col-sm time-block description"></textarea>
+      <button id="9" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">10 AM</div>
+      <textarea id = "10" class="col-sm time-block"></textarea>
+      <button id="10" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">11 AM</div>
+      <textarea id = "11" class="col-sm time-block"></textarea>
+      <button id="11" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">12 PM</div>
+      <textarea id = "12" class="col-sm time-block"></textarea>
+      <button id="12" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">1 PM</div>
+      <textarea id = "13" class="col-sm time-block"></textarea>
+      <button id="13" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">2 PM</div>
+      <textarea  id = "14"class="col-sm time-block"></textarea>
+      <button id="14" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">3 PM</div>
+      <textarea id="15" class="col-sm time-block"></textarea>
+      <button id="15" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">4 PM</div>
+      <textarea id = "16" class="col-sm time-block"></textarea>
+      <button id="16" class="saveBtn">Save</button>
+    </div>
+    <div class="row">
+      <div class="hour">5 PM</div>
+      <textarea id = "17" class="col-sm time-block"></textarea>
+      <button id = "17" class="saveBtn">Save</button>
+    </div>
+  </div>
+  <script src="https://momentjs.com/downloads/moment.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="script.js"></script>
+
+  <footer>
+    &copy; 2022 Katelyn Armstrong
+</footer>
+</body>
+
+
+</html>
